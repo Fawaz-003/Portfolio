@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main-section">
+        <div class="main-p">
+    <!------ Navbar ------->
+    <nav>
+        <div class="nav">
+            <h1><span>Port</span>folio<span>.</span></h1>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li class="nav-item active">Home</li>
+                <li class="nav-item" id="about">About Me</li> 
+                <li class="nav-item" id="service">Service</li>
+                <li class="nav-item" id="project">Projects</li>
+                <li class="nav-item" id="contact">Contact</li>
+            </ul>
+        </div>
+        <span class="nav-span"></span>
+    </nav>
+
+    <!----- Main section ------>
+    <main>
+        <div class="img-item">
+            <div class="img-container">
+                <img src="myphoto.jpg" alt="My Photo">
+            </div>
+        </div>
+        <div class="content">
+            <h2>Hello, I'm Fawaz</h2>
+            <h3>I'm a &nbsp<span>FrontEnd Developer.</span></h3>
+            <p>"As a passionate frontend developer, I specialize in crafting intuitive and visually appealing web interfaces. My focus is on delivering seamless user experiences through modern technologies."</p>
+            <button>Download CV</button>
+        </div>
+    </main>
+    </div>
+    </section>
+    <!--------- About Me ---------->
+    <section class="about-me">
+        <div class="about-sec">
+            <h1 class="about">About <span>Me</span></h1>
+            <p>Hi, I’m Fawaz, a passionate Frontend Developer! I specialize in crafting visually engaging, responsive, and user-friendly web interfaces. With a strong focus on creating seamless user experiences, I thrive on bridging the gap between design and functionality.</p>
+        <div class="about-list">
+            <ul class="about-nav">
+                <li class="link-title about-active" data-target="tab-content">Skills</li>
+                <li class="link-title" data-target="about-content">About Me</li>
+                <li class="link-title" data-target="education">Education</li>
+            </ul>
+        </div>
+        </div>
+        <div class="tabs">
+            <div class="tab-content" id="tab-content">
+                <h4>Professional Skills</h4>
+                <div class="row">
+                    <div class="circle">
+                        <span>Communication</span>
+                        <div class="outer">
+                            <div class="inner">73%</div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#ff2b5f" />
+                                    <stop offset="100%" stop-color="#673ab7" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="60" cy="60" r="45" stroke-linecap="round" class="one" data-percentage="73" />
+                        </svg>
+                    </div>
+                    <div class="circle">
+                        <span>Team Work</span>
+                        <div class="outer">
+                            <div class="inner">68%</div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#ff2b5f" />
+                                    <stop offset="100%" stop-color="#673ab7" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="60" cy="60" r="45" stroke-linecap="round" class="two" data-percentage="68" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="circle">
+                        <span>Problem Solving</span>
+                        <div class="outer">
+                            <div class="inner">60%</div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#ff2b5f" />
+                                    <stop offset="100%" stop-color="#673ab7" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="60" cy="60" r="45" stroke-linecap="round" class="three" data-percentage="60" />
+                        </svg>
+                    </div>
+                    <div class="circle">
+                        <span>Leadership</span>
+                        <div class="outer">
+                            <div class="inner">80%</div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#ff2b5f" />
+                                    <stop offset="100%" stop-color="#673ab7" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="60" cy="60" r="45" stroke-linecap="round" class="four" data-percentage="80" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="linear">
+                    <p><span>1.5 Years</span><br>Coding Experience</p>
+                    <p><span>25+</span><br>Projects</p>
+                    <p><span>05</span><br>Best Projects</p>
+                </div>                                
+            </div>                
+            <div class="about-content" id="about-content">
+                <div class="img-holder">
+                    <div class="img-about">
+                    <img src="myphoto.jpg" class="about-img">
+                    </div>
+                </div>
+                <div class="my-data">
+                    <form>
+                        <p><span>Name : </span>Mr Abdul Fawaz</p>
+                        <p><span>Age : </span>19</p>
+                        <p><span>DOB : </span>26-03-2005</p>
+                        <p><span>Gender : </span>Male</p>
+                    <p><span>Nationality : </span>Indian</p>
+                       <p><span>City : </span>Vellore, Tamilnadu</p>                                    <p><span>Languages : </span>English, Urdu & Tamil</p>
+                       <p><span>Phone : </span>+91 9894574006</p>
+                       <p><span>Email : </span>abdulfawaz84@gmail.com</p>
+                    </form>
+                </div>
+            </div>
+            <div class="education" id="education">
+                <section>
+                    <h2><span>My</span> Journey<span>.</span></h2>
+                    <div>
+                        <h5>2022-2026</h5>
+                        <p>Bachelor degree in Computer Science Engineering</p>
+                    </div>
+                    <div>
+                        <h5>2020-2022</h5>
+                        <p>Higher Secondaries</p>
+                    </div>
+                    <div>
+                        <h5>2019</h5>
+                        <p>Secodary school leaving certificate</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+        <!-- --- Technical Skills --- -->
+        <div class="technical">
+            <h2>Technical <span>Skills.</span></h2>
+            <div class="language">
+                <h4>Languages</h4>
+                <div class="box">
+                    <i class="fa-brands fa-html5 html"></i>
+                    <div>
+                        <h3>HTML 5</h3>
+                        <p>Skilled in semantic, responsive, and accessible HTML web design.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa-brands fa-css3-alt css"></i>
+                    <div>
+                        <h3>CSS</h3>
+                        <p>Cascade styling language for designing web page layouts.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa-brands fa-js js"></i>
+                    <div>
+                        <h3>Java SCript</h3>
+                        <p>Dynamic programming language for interactive web applications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="frame">
+                <h4>Frame Works</h4>
+                <div class="works">
+                    <div class="boxes">
+                        <i class="fa-brands fa-react react"></i>
+                        <h5>React Js</h5>
+                    </div>
+                    <div class="boxes">
+                        <img src="tailwind.png" class="tail">
+                        <h5>Tailwind</h5>
+                    </div>
+                </div>
+            </div>
+            <h4 class="tool">Technical   Tools</h4>
+            <div class="tools">
+                <div class="boxes">
+                    <img src="vscode-logo.png" class="vscode">
+                    <h5>VS Code</h5>
+                </div>
+                <div class="boxes">
+                    <i class="fa-brands fa-github hub"></i>
+                    <h5>Github</h5>
+                </div>
+            </div>
+        </div>
+        <!-- ----- Services ----- -->
+        <section class="service-section">
+            <div class="service">
+            <h2><span>My</span> Services. 💻</h2>
+            <div class="my-img">
+                <img src="image1.jpg">
+                <h3>E-Commerce Sites</h3>
+                <div class="img-con">
+                    <h4>E-Commerce Sites</h4>
+                    <p>Custom platforms for seamless shopping, payments, shipping, and transactions.</p>
+                    <i class="fa-solid fa-link link"></i>
+                </div>
+            </div>
+            <div class="my-img">
+                <img src="image2.png">
+                <h3>Blog & portfolio Sites</h3>
+                <div class="img-con">
+                    <h4>Blog & portfolio Sites</h4>
+                    <p>Create platforms to share stories, showcase skills, and engage audiences.</p>
+                    <i class="fa-solid fa-link link"></i>
+                </div>
+            </div>
+            <div class="my-img">
+                <img src="image3.jpeg">
+                <h3>Restaurant Sites</h3>
+                <div class="img-con">
+                    <h4>Restaurant Sites</h4>
+                    <p>Design platforms to showcase menus, reservations, and enhance dining experiences.</p>
+                    <i class="fa-solid fa-link link"></i>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- ----- My Projects ---- -->
+        <section class="project-section">
+    <div class="projects">
+        <h2><span>My</span> Projects.</h2>
+        <div class="pro-title">
+            <h3>Best works</h3>
+            <div class="se-title">
+                <span>
+                    <h2>0</h2> <!-- Left digit of the project number -->
+                    <h2>1</h2> <!-- Right digit of the project number -->
+                </span>
+                <span>
+                    <h2>Restaurant website 🍽</h2> <!-- Project title -->
+                </span>
+            </div>
+            <abbr><span>Tools :</span> HTML, CSS & Javascript</abbr>
+            <p>
+                Developed a responsive restaurant website featuring online ordering, menu display, and reservation system using HTML, CSS, JavaScript, and React.
+            </p>
+            <div class="buttons">
+                <div>
+                    <button>&lt;</button> <!-- Left button -->
+                    <button>&gt;</button> <!-- Right button -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrow-up-right-from-square link"></i>
+                </div>
+            </div>
+            <div class="web">
+                <video autoplay muted loop>
+                    <source src="video1.mp4" type="video/mp4"> <!-- Video source -->
+                </video>
+            </div>
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>  
+                <span class="dot"></span> 
+            </div>             
+        </div>
+    </div>
+</section>
+        <!-- ---- contact ---- -->
+        <section class="contact-section">
+            <div class="contact">
+            <h2>Contact <span>Me.</span></h2>
+            <div>
+                <i class="fa-solid fa-rocket icon"></i>
+                <span> abdulfawaz84@gmail.com</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone icon"></i>
+                <span> +91 9894574006</span>
+            </div>
+            <div class="resume">
+                <button>Download CV</button>
+            </div>           
+            <h2>Lets Talk Together <span>!</span></h2>
+            <form class="form" name="submit-to-google-sheet">
+  <div class="input-field">
+    <input type="text" name="Name" id="name" required>
+    <label for="name">Name</label>
+  </div>
+  <div class="input-field">
+    <input type="email" name="E-mail" id="mail" required>
+    <label for="mail">E-mail</label>
+  </div>
+  <div class="input-field">
+    <textarea name="Description" id="description" required></textarea>
+    <label for="description">Description</label>
+  </div>
+  <span class="msg" id="message">Your Response has Sent*</span>
+    <div class="btn-con">
+        <button type="submit" class=" btn-sub">Submit</button>
+    </div>            
+</form>
+            <div class="footer">
+                <div class="ul-list">
+                <ul>
+                    <li><a href="https://www.instagram.com/mr_fawaz_18_/profilecard/?igsh=MWQya296cjFhbGRjOQ==" target="_blank"><i class="fa-brands fa-square-instagram media"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/abdul-fawaz-76b7b832a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin media"></i></a></li>
+                    <li><a href="https://wa.me/9894574006?text=Hello%2C%20I%20am%20interested%20in%20your%20services!" target="_blank">
+    <i class="fa-brands fa-whatsapp media"></i></i></a></li>
+                </ul>
+                <i class="fa-solid fa-arrow-up arrow" id="home"></i>
+                </div>
+                <p>Copiright © Made with <span> ❤ </span> by Fawaz.</p>
+            </div>
+        </div>
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+  
+</body>
+
+</html>
