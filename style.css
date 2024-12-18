@@ -389,7 +389,7 @@ svg {
     background-clip: text;
 } 
 .technical {
-    height: 780px;
+    height: 800px;
 }
 .technical h2 span {
     color: #ff2b5f;
@@ -504,7 +504,7 @@ svg {
     color: #af6aff;
 }
 .service {
-    height: 720px;
+    height: 750px;
     text-align: center;
 }
 .service h2 span {
