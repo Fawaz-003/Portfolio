@@ -26,7 +26,7 @@ const projects = [
     desc: "A modern developer portfolio showcasing my projects, skills, and experience.",
     techs: ["React.js", "Node.js", "Tailwind.css", "GSAP"],
     code: "https://github.com/Fawaz-003/React-Portfolio",
-    live: "https://fawaz-portfolio-lovat.vercel.app/",
+    live: "https://fawaz-portfolio-gamma.vercel.app/",
     image: Portfolio,
   },
 ];
