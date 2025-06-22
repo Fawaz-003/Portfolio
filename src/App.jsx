@@ -4,7 +4,7 @@ import About from './Components/Sections/About'
 import Skills from './Components/Sections/Skills'
 import Projects from './Components/Sections/Projects'
 import Contact from './Components/Sections/Contact'
-import Footer from './Components/ui/footer'
+import Footer from './Components/ui/Footer'
 
 function App() {
   return (
