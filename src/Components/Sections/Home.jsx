@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import Resume from "/AbdulFawaz_Resume.pdf";
 import profile from "../../assets/myphoto.jpg";
 import { Download, ChevronDown } from "lucide-react";
 import Button from "../ui/Button";
@@ -141,11 +142,18 @@ function Home() {
         <Button
           text="Download Resume"
           icon={<Download />}
+          href={Resume}
           className="bg-purple-600 text-white rounded hover:bg-purple-700 w-52 text-center"
         />
+
         <Button
           text="View My Work"
           icon={<ChevronDown />}
+          onClick={() => {
+            document
+              .getElementById("projects")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
           className="bg-transparent font-semibold text-[#4d4c4c] dark:text-gray-400 border-[0.7px] border-[#4d4c4c] dark:border-gray-500 rounded-md text-m hover:bg-[#f0f0f0] dark:hover:bg-gray-800/20 w-52 text-center"
         />
       </div>
