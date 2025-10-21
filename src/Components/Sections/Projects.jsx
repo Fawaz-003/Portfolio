@@ -1,4 +1,4 @@
-import ProjectCard from "../Ui/ProjectCard.jsx";
+import ProjectCard from "../Components/Ui/ProjectCard";
 import LMS from "../../assets/LMS.png"
 import Restaurant from "../../assets/Restaurant.png"
 import Ecommerce from "../../assets/Ecommerce.png"
