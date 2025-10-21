@@ -1,17 +1,24 @@
-// components/Projects.jsx
-import ProjectCard from "../ui/ProjectCard";
+import ProjectCard from "../Ui/ProjectCard";
 import LMS from "../../assets/LMS.png"
 import Restaurant from "../../assets/Restaurant.png"
-import Portfolio from "../../assets/Portfolio.png"
+import Ecommerce from "../../assets/Ecommerce.png"
 
 const projects = [
   {
-    title: "SMS - Students Management System",
+    title: "LMS - Learning Management System",
     desc: "Manages student data, tracks progress, automates attendance and reports.",
     techs: ["HTML", "CSS", "PHP", "MySQL", "XAMPP"],
     code: "https://github.com/Fawaz-003/lms-cahcet",
     live: "https://lms.cahcet.in/",
     image: LMS,
+  },
+  {
+    title: "Modex - eCommerce Platform",
+    desc: "A modernized eCommerce platform inspired by Flipkart and Amazon, offering a seamless shopping experience with innovative features for small-scale clients.",
+    techs: ["React.js", "Node.js", "MongoDB", "Express.js", "Tailwind.css"],
+    code: "https://github.com/Fawaz-003/Ecommerce-ModeX",
+    live: "https://ecommerce-mode-x.vercel.app/", 
+    image: Ecommerce, 
   },
   {
     title: "Food-Order Application",
@@ -21,15 +28,8 @@ const projects = [
     live: "https://snackworld.infinityfreeapp.com",
     image: Restaurant,
   },
-  {
-    title: "Portfolio",
-    desc: "A modern developer portfolio showcasing my projects, skills, and experience.",
-    techs: ["React.js", "Node.js", "Tailwind.css", "GSAP"],
-    code: "https://github.com/Fawaz-003/React-Portfolio",
-    live: "https://fawaz-portfolio-gamma.vercel.app/",
-    image: Portfolio,
-  },
 ];
+
 
 function Projects() {
   return (
